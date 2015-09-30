@@ -157,6 +157,11 @@ class Configuration
         date: "<date>"
         ---
         """
+    pelican:
+      frontMatter: """
+        title: <title>
+        date: <date>
+      """
 
   @projectConfigs: {}
 
